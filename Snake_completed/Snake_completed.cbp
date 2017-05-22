@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Snake_completed" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Snake_completed" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/console.h" />
+		<Unit filename="include/defaultmap.h" />
+		<Unit filename="include/direction.h" />
+		<Unit filename="include/gamerunner.h" />
+		<Unit filename="include/graphic2d.h" />
+		<Unit filename="include/keycode.h" />
+		<Unit filename="include/keyevent.h" />
+		<Unit filename="include/list.h" />
+		<Unit filename="include/listnode.h" />
+		<Unit filename="include/map.h" />
+		<Unit filename="include/menu.h" />
+		<Unit filename="include/menuitem.h" />
+		<Unit filename="include/pixel.h" />
+		<Unit filename="include/point.h" />
+		<Unit filename="include/snake.h" />
+		<Unit filename="include/utility.h" />
+		<Unit filename="include/vector.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/console.cpp" />
+		<Unit filename="src/gamerunner.cpp" />
+		<Unit filename="src/graphic2d.cpp" />
+		<Unit filename="src/keyevent.cpp" />
+		<Unit filename="src/map.cpp" />
+		<Unit filename="src/menu.cpp" />
+		<Unit filename="src/menuitem.cpp" />
+		<Unit filename="src/pixel.cpp" />
+		<Unit filename="src/point.cpp" />
+		<Unit filename="src/snake.cpp" />
+		<Unit filename="src/utility.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

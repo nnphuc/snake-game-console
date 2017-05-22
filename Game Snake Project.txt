@@ -1,0 +1,24 @@
+
+THU VIEN SU DUNG:
+ + <windows.h>
+ + <conio.h>
+ + <iostream>
+ + <cstd___>
+ + <thread>
+ + <mutex>
+ ...
+
+CHUC NANG:
+ +MENU:
+   +chon level [1-5]
+   +chon map [1-4]
+   + run (bat dau game):
+      * su dung ^v<> de di chuyen, [SPACE_BAR] hoac [P] de tam dung
+   + exit: ket thuc chuong trinh
+
+#fixed bug:
+   + snake co the bi set direction nguoc
+
+Written by:
+ Nguyen Ngoc Phuc
+ MSV: 16021408
